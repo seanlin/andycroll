@@ -1,0 +1,21 @@
+%article.hentry
+  %header
+    %h1.entry-title= title
+    %address.vcard.author
+      %a.fn.url{ :href => "http://andycroll.com" } Andy Croll
+    %time.published{ :datetime => Time.parse(date).iso8601, :pubdate => "pubdate" }
+      %span.value-title{ :title => Time.parse(date).iso8601 }
+      = date
+
+  %section.content.entry-content= body
+
+  %section.comments
+    - if @config[:disqus]
+      #disqus_thread
+      %script{ :src => "http://disqus.com/forums/#{@config[:disqus]}/embed.js" }
+      %noscript{ :src => "http://disqus.com/forums/#{@config[:disqus]}/embed.js" }
+        %a{ :href => "http://#{@config[:disqus]}.disqus.com/?url=ref" } View the discussion thread.
+      %a.dsq-brlink{ :href => "http://disqus.com" }
+        blog comments powered by
+        %span.logo-disqus
+          Disqus

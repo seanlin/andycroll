@@ -1,0 +1,101 @@
+:plain
+  <!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+  <!--[if lt IE 7 ]><html class="no-js ie6" lang="en"><![endif]-->
+  <!--[if IE 7 ]><html class="no-js ie7" lang="en"><![endif]-->
+  <!--[if IE 8 ]><html class="no-js ie8" lang="en"><![endif]-->
+  <!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+%head
+  %meta{ :charset => "utf-8" }
+
+  %title= title
+  %meta{ :name => "description", :content => "The blog of Andy Croll • British designer & developer living in Singapore" }
+  %meta{ :name => "author", :content => "Andy Croll" }
+
+  %link{ :rel => "canonical", :href => "" }
+  %link{ :rel => "author", :type => "text/plain", :href => "/humans.txt" }
+  %link{ :rel => "alternate", :type => "application/atom+xml", :title => "#{title} - RSS", :href => "/index.xml" }
+
+  -# http://t.co/dKP3o1e - decent, consistant mobile scaling and zooming
+  %meta{ :name => "HandheldFriendly", :content => "True" }
+  %meta{ :name => "MobileOptimized", :content => "320" }
+  -# removed target-densitydpi=160dpi from below
+  %meta{ :name => "viewport", :content => "width=device-width, initial-scale=1" }
+
+  -# iOS thumbs
+  %link{ :rel => "apple-touch-icon-precomposed", :media => "screen and (resolution: 163dpi)", :href => "/images/ios-57px.png" }
+  %link{ :rel => "apple-touch-icon-precomposed", :media => "screen and (resolution: 132dpi)", :href => "/images/ios-72px.png" }
+  %link{ :rel => "apple-touch-icon-precomposed", :media => "screen and (resolution: 326dpi)", :href => "/images/ios-114px.png" }
+
+  -# Microsoft. Delete if not required
+  %meta{ :'http-equiv' =>"cleartype", :content => "on" }
+  %meta{ :'http-equiv' => "X-UA-Compatible", :content => "IE=edge,chrome=1" }
+
+  -# STYLESHEETS
+  -# For less capable mobile browsers
+  %link{ :rel => "stylesheet", :media => "handheld", :href => "/stylesheets/handheld.css?v=1" }
+
+  -# For all browsers
+  %link{ :rel => "stylesheet", :media => "screen, projection", :href => "/stylesheets/style.css" }
+  %link{ :rel => "stylesheet", :media => "print", :href => "/stylesheets/print.css" }
+  -# For progressively larger displays
+  %link{ :rel => "stylesheet", :media => "only screen and (min-width: 480px)", :href => "/stylesheets/480.css" }
+  %link{ :rel => "stylesheet", :media => "only screen and (min-width: 768px)", :href => "/stylesheets/768.css" }
+  %link{ :rel => "stylesheet", :media => "only screen and (min-width: 992px)", :href => "/stylesheets/992.css" }
+  %link{ :rel => "stylesheet", :media => "only screen and (min-width: 1382px)", :href => "/stylesheets/1382.css" }
+  -# For Retina displays - useful for images on retina
+  %link{ :rel => "stylesheet", :media => "only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2)", :href => "/stylesheets/2x.css" }
+  /[if IE 6]
+    %link{ :rel => "stylesheet", :media => "screen, projection", :href => "http://universal-ie6-css.googlecode.com/files/ie6.0.3.css" }
+
+  -# JavaScript at bottom except for Modernizr
+  %script{ :src => "/javascripts/libs/modernizr-1.7.min.js" }
+
+%body
+  %header{ :role => "banner" }
+    %hgroup
+      %h1
+        %a{ :href => "/" } Andy Croll
+      %h2 Web & iPhone Designer + Ruby on Rails developer
+
+  %aside#promotion
+    %h3 Stuff I’ve made
+    %a.tunedin{ :href => "http://tunedinapp.com", :title => "Event-based group chat" } TunedIn
+    %a.todaysnews{ :href => "http://todaysnewsapp.com", :title => "Newspapers reinvented" } Today’s News
+
+  %section{ :role => "main" }
+    = yield
+
+  %aside
+
+  %footer{ :role => "contentinfo" }
+    %section
+      %h1 Elsewhere on the Internet
+      .links
+        %a.twitter{ :href => "http://twitter.com/andycroll" } Twitter
+        %span.dot#twitter-dot •
+        %a.facebook{ :href => "http://facebook.com/andycroll" } Facebook
+        %span.dot#facebook-dot •
+        %a.linkedin{ :href => "http://linkedin.com/in/andycroll" } LinkedIn
+        %span.dot#linkedin-dot •
+        %a.dribbble{ :href => "http://dribbble.com/players/andycroll" } Dribbble
+        %span.dot#dribbble-dot •
+
+  -# JAVASCRIPTS
+  -# Optimized Google Analytics - http://t.co/HZe9oJ4 - Change UA-XXXXX-X to be your site's ID
+  %script
+    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  %script{ :src => "http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.js" }
+  %script
+    window.jQuery || document.write("<script src='/javascripts/jquery-1.6.min.js'>\x3C/script>")
+  %script{ :src => "/javascripts/plugins.js" }
+  %script{ :src => "/javascripts/script.js" }
+  %script{ :src => "http://use.typekit.com/oea6hqe.js" }
+  %script
+    try{Typekit.load();}catch(e){}
+  /[if (lt IE 9) & (!IEMobile)]
+    %script{ :src => "/javascripts/libs/DOMAssistantCompressed-2.8.js" }
+    %script{ :src => "/javascripts/libs/selectivizr-1.0.1.js" }
+    %script{ :src => "/javascripts/libs/respond.min.js" }

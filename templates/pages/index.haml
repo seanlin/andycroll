@@ -1,0 +1,19 @@
+%section#articles.hfeed
+  - for article in articles[0...3]
+    %article.hentry
+      %header
+        %h1.entry-title
+          %a{ :href => article.path, :rel => "bookmark" }
+            = article.title
+        %address.vcard.author
+          %a.fn.url{ :href => "http://andycroll.com" } Andy Croll
+        %time.published{ :datetime => Time.parse(article.date).iso8601, :pubdate => "pubdate" }
+          %span.value-title{ :title => Time.parse(article.date).iso8601 }
+          = article.date
+      %section.content.entry-summary
+        = article.summary
+      .more
+        %a{ :href => article.path } read more…
+
+%section#archives
+  = archives[3..-1]

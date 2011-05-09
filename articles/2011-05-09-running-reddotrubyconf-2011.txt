@@ -1,0 +1,146 @@
+---
+title: Running RedDotRubyConf 2011
+date: 09/05/2011
+
+<div class="kicker">
+This is about the process I went through to make RDRC2011 happen, other people (who saw more of the conference) have written better and more detailed reports than I could. If you want to know who attended, look here.
+</div>
+
+When I was getting progressively drunker at the after-party (thank you Github) Sarah Mei compared my agreeing to run RDRC to pregnancy… you start off with a small commitment and by the time it the date arrives it’s this huge thing: an apt metaphor I think.
+
+Possibly the most tiring week of my life, but also one of the most satisfying, when I was able to take a fleeting moment to see the auditorium filled with enthused faces, listening to great talks I was able to feel a little swell of pride. I made this. :-)
+
+But I didn’t do it alone, Carl & Jason, the sponsors, my co-workers, the speakers and the attendees all helped make rdrc2011 one of the things I’ve done in my life of which I’m the proudest.
+
+I’m going to name check venues and suppliers here and be honest about their performance, for anyone thinking of running an event in Singapore. I’ll also go into some of my thoughts.
+
+## Initial Preparation
+
+We initially met in November where the idea of a conference was mooted at a low key chat of local Ruby types. I was much more forthright and declared that I could 'start putting some stuff together', I've been to a few conferences myself and had some strong opinions about what I thought were the important features. Carl indicated that he'd probably be able to secure some Pivotal support and Sau Sheong said he might be able to swing some money our way from HP Labs. This gave me enough confidence to start to plan.
+
+From here Jason and I emailed a few Ruby heavyweights simply asking if they fancied an economy class flight and four nights in Singapore in exchange for speaking at a potential conference. We had a few 'no' responses but both Matz and Dave Thomas were immediately keen and we knew that with these two we had enough of a hook to bring in initial ticket sales.
+
+I asked Tom if he was willing to head over (we'd previously met at SchnitzelConf last year) and whether Github would sponsor some drinks. He agreed, as did Chad Fowler and we had our four 'keynote' speakers.
+
+It was always in my head to expand the number of 'well known' speakers in the event that tickets were selling well enough. So I kept Mikel and Gregg 'warm' in the hope that I'd be able to get them accross to speak. Pleasingly, and with Ian coming over as part of Pivotal's contribution, we were able to make that happen. Sadly Chad had to drop out do to a change in his circumstances but he's promised he's 'in' for next year.
+
+<aside>
+I knocked the website together over the Christmas holiday period, it's responsive, so it looks good on mobiles as well as desktops.
+</aside>
+
+I also decided to use wufoo to do the ticketing, most event management sites take a percentage of every ticket on top of the credit card or paypal fees and I was concerned about the budget. With only a $29 monthly charge for their paypal integration I figured it was worth a little extra legwork with CSVs.
+
+So in early January we were go.
+
+## Principles
+
+My principles for the conference were pretty simple.
+
+<span class="run-in">Cost.</span> We should not be giving away tickets, and in fact should price them at a reasonable level: enough so that the experience would not be cheap enough to write off or waste time at. The conference should be an investment for the attendees. This obviously left a conundrum of trying to attract Rubyists from neighbouring nations where $250 is a lot of money (even without the high travel and hotel costs). I hope to be able to do something to fix these issues next year.
+
+<span class="run-in">Time facism.</span> Conferences that run over are badly run. It's important to encourage speakers to be succinct and for the audience to afford them the respect of their punctuality. Conferences are tiring social occasions, the least you can do for everyone is to be organisaed and finish on time.
+
+<span class="run-in">Single track.</span> I personally *hate* multiple tracks; you always feel like you're missing out on the 'good stuff' and people tend to drift in and out of the sessions. Plus it's easier to control the quality of the content if there is less of it.
+
+My solution to a potential lack of variety was to opt for short talks, of 20 minutes, in the afternoon. This had the benefit of adapting to the shorter after lunch attention span of the audience as well as protecting against individual topics being poorly presented or simply not holding the interest of a section of the audience. Thankfully this wasn't the case, even though some of the afternoon speakers were doing so for the first time.
+
+<span class="run-in">Badges.</span> Conference badges are to let other people know your name when you are the 40th person they have met that morning, not for reminding you where you are. Most conference badges forget this, I made sure I didn't.
+
+I also wanted the badge to contain any critical information like the schedule, printing a load of booklets that nobody wants or needs was time I didn't want to invest.
+
+<span class="run-in">Caffeine is important, as is food.</span> I hate the big vats of coffee that sit and stew unappetisingly for the whole day, so I stole an idea from SchnitzelConf which was to run Nespresso-esque coffee machines and let the engineers figure it out. I am the best customer ever at the Bras Basah branch of Coffee Bean & Tea Leaf. Plus I was able to gift the machines to the guys who helped me out the most during the two days.
+
+We are also the only Ruby conference ever to provide Asian Red Bull as a mid-afternoon pick me up. It's the good stuff.
+
+250 people drink a lot. Jason and I filled a family sedan with bottled water and Coke Zero from a local hypermarket. Twice. I chose those particular drinks because I knew that I would eventually drink anything that was left over, fact was there was hardly anything left.
+
+The caterer was excellent. As we didn't have time to do a lot of testing and tasting, we truly got lucky on this one.
+
+<span class="run-in">Be pessimistic.</span> My initial estimate for the conference was about 100-120 attendees on a single day. This was my first conference so I wanted to minimize my risk and amount of work! I was encouraged to aim a bit bigger in particular by Chris who always had the vision that this could be a bigger event. But is designed the event so we could grow to accomodate more people if the demand was there.
+
+My initial estimates of costs meant a minimum of 150 attendees and a few sponsors would mean I would break even. I remained pessimistic about attendance and kept costs low wherever I could. For example, we bought video cameras and taped the talks ourselves rather than pay several thousand dollars for a pro-AV crew.
+
+<span class="run-in">Limit the Sponsors.</span> Conferences in Asia tend to have about 4,000 sponsors at several levels of Platinum, Diamond, Gold sponsorship. I'm not really into that. I wanted four or five sponsors that would put up a significant (a few thousand dollars) amount and also be committed to sending people.
+
+By limiting the number of sponsors we'd also not be devaluing their commitment to helping make this event happen for the community. Sponsors also got early bird pricing for all their employees. Without the early commitment of sponsors I could not have made this event happen, they provided the financial cushion that made this possible.
+
+<span class="run-in">Swag that isn’t rubbish.</span> I wanted to make sure that whatever was in the conference goodie bag was useful. I shipped a load of high-quality Field Notes notebooks from the US and hand stamped each one: custom printed was more expensive and only availible in black. For t-shirts my mission was simple, don't make them so hideous that no-one will wear them afterwards. I hope I succeeded. The real trick was in trying not to order too many or too few, and in the right sizes.
+
+<span class="run-in">Don’t be afraid of deep-dive topics.</span> Initially I probably erred on the side of less technical topics, but as the tickets sold and the audience became clearer I encouraged the morning sessions to up their technical quotient, I was also able to pick more technical talks for the afternoon slots. In retrospect we could perhaps have gone further.
+
+I did try and group rough themes together but didn't have an overall premise for the two days. Talks tended to coalesce naturally into themes as the conference goes on and speakers react to earlier talks. I think I'd feel a bit more comfortable to curate the topics a little more in future.
+
+<aside>
+### Suppliers I used
+
+* **Venue:** Mary Ho at [SMU][smu]
+* **T-shirts:** Simon at [Accl Pte Ltd][accl]
+* **Printing:** [Colors Alive][colors]
+* **Booklets:** [Field Notes][fnotes]
+* **Coffee:** Machines from [Coffee Bean & Tea Leaf][cbtl]
+* **Drinks:** Bought at [Carrefour] and moved by hand
+* **Food:** [Orchid Thai Catering][orchidthai]
+
+[smu]: http://www.smu.edu.sg/leasing/facilities_booking/index.asp
+[accl]: http://twear.com.sg
+[colors]: http://colorsalive.com.sg
+[fnotes]: http://fieldnotesbrand.com
+[cbtl]: http://cbtl.com.sg
+[carrefour]: http://carrefour.com.sg
+[orchidthai]: orchidthaicatering.com.sg
+</aside>
+
+## Mistakes
+
+There were two personal mistakes that I made. Firstly I didn’t ask for help early enough. Carl being the dillgent, calm and efficient hero he is saved my bacon on the early morning of day one. The lucky use of Jason's family car, trolley, time and good humour proved essential tools in the two days prior to the conference. I took on a lot of stuff myself, including design of all materials and even filling bags of swag, in future I'd try and get a bit more help.
+
+Also don’t be a 12 hour flight away from the conference the weekend before it happens. I woke up in Ireland on the Monday before the Friday conference because a good friend was getting married, plus I had been in the UK the week before. This compressed the preperation into a couple of frenetic days of constant motion where any problem would have had no chance of resolution. Thankfully there were no big mistakes in those two days.
+
+## Improvements
+
+Feedback from attendees was a preference for even more technical talks and potentially an ‘ask the speakers’ panel, this happened a couple of the times after talks where questions were not only answered by the original speaker. Next time I’d like to formalize this.
+
+I would also like to reach out into the larger corporations to find existing programmers new to Ruby to join the community and thus better fuel the small/growing company ecosystem with employees. If anyone has any ideas, I'd love to hear them.
+
+The training was very over-subscribed, it may be worth running some sessions in the coming months to fulfill the obvious community need. Not sure I have the bandwidth, but there's a business opportunity there.
+
+I'd like to have more Asian speakers, we had many Asian-based speakers but not many true locals. I know there a individuals doing great and interesting work it'd be great to put them on the stage next year.
+
+I will be looking at alternative venues for next year, SMU’s facilities team were unable to provide AV support for the first day and were expensive and on occasion a little unhelpful in the buildup. The lack of aircon in the reception area was tough for some attendees when the hall itself was so (aircon) cold. However the location is great.
+
+I may also change the timing of the conference to avoid the run up to the end of the student year (and Easter!), I am aware of several students who did not feel they could attend because of impending examinations.
+
+## Finances
+
+I've always been an open kind of guy, so here are the headline financial numbers for the conference. I figure it's got to help someone.
+
+### Income
+
+Sponsorship:  27,000
+Ticket Sales: 40,000
+
+TOTAL: 67,000 SGD
+
+### Costs
+
+Venue:  10,000
+Travel: 11,000
+Hotels:  4,000
+Swag:    4,000
+Print:   1,000
+Food:    7,000
+Drink:   1,000
+Coffee:  2,000
+Party:  10,000
+Misc:    3,000
+
+TOTAL:  53,000 SGD
+
+So profitable? Yes. Wildly? No. Was that the plan? Also no. Primary motivation was to do a 'good thing' and not be financially broken. In fact in terms of day rate x days spent I'm probably about even. It seems going into event management for the money is a fools errand.
+
+## Next
+
+I'm slowing coming around to the idea of next year as the 'conference lag' recedes. I'll know better what to do in the weeks before and on the day I think it'll be a little less stressful, now I've run a large event.
+
+I did make some money off the back of the conference, which I'll be plowing into a) a new iMac (every time I run a spec suite I'll think of a packed auditorium!) and b) a cushion for next year's event.
+
