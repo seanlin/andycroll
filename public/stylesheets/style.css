@@ -116,6 +116,7 @@ body {
   line-height: 24px;
   background-color: transparent;
   color: rgb(40,40,40);
+  position: relative;
 }
 
 body,
@@ -217,14 +218,13 @@ h1 {
   font-size: 19px;
   font-weight: normal;
   line-height: 36px;
-  margin: 16px 0 16px;
+  margin: 0 0 16px;
   border-top: 4px solid #000;
   border-bottom: 1px solid #ccc;
   padding: 4px 0 31px;
 }
 .wf-active h1 {
   font-size: 24px;
-  font-weight: normal;
 }
 
 h2 {
