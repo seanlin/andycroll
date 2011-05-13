@@ -105,13 +105,13 @@ hr {
 
 html {
   overflow-y: scroll;
-  background: rgb(255,255,255);
+  background: rgb(250,250,250) url(/images/style/fabric_1.gif) repeat 50% 0;
 }
 
 body {
   margin: 0 auto;
   padding: 24px 0;
-  width: 90% /* 252px */;
+  width: 252px;
   font-size: 16px;
   line-height: 24px;
   background-color: transparent;
@@ -124,14 +124,18 @@ dt,blockquote,cite,
   font-family: Georgia, serif;
 }
 
-h1,h2,h3,h4,h5,h6,
-.sidenote h1,aside h1 {
-  font-family: "atrement-web-1", "atrement-web-2", sans-serif;
+h1 {
+  font-family: "atrement-web-1", "atrement-web-2", Impact, sans-serif;
   font-weight: normal;
 }
 
+h2, h3, h4, h5, h6,
+.sidenote h1, aside h1 {
+  font-family: Georgia, serif;
+}
+
 p, ul, ol, form {
-  margin: 24px 0 16px;
+  margin: 0 0 24px;
 }
 
 abbr {
@@ -177,6 +181,8 @@ p span.pullquote {
 a.superscript,a.subscript {
   text-decoration: none;
 }
+
+/*
 .footnote {
   border-top: 1px solid black;
   font-size: 0.875em;
@@ -191,6 +197,8 @@ a.superscript,a.subscript {
   text-transform: uppercase;
   font-size: 1em;
 }
+*/
+
 .caption {
   font-size: 1em;
   font-style: italic;
@@ -200,29 +208,31 @@ a.superscript,a.subscript {
 .run-in {
   font-style: italic;
   font-weight: bold;
-  font-size: 1.1em;
+  font-size: 18px;
 }
 
 /* 2.HEADINGS */
 
 h1 {
-  font-size: 30px;
-  font-weight: bold;
-  line-height: 48px;
+  font-size: 19px;
+  font-weight: normal;
+  line-height: 36px;
   margin: 16px 0 16px;
   border-top: 4px solid #000;
   border-bottom: 1px solid #ccc;
   padding: 4px 0 31px;
 }
 .wf-active h1 {
-  font-size: 40px;
+  font-size: 24px;
   font-weight: normal;
 }
 
 h2 {
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 16px;
+  line-height: 24px;
   margin: 16px 0 8px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 h1+img, h2+img {
@@ -230,43 +240,32 @@ h1+img, h2+img {
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 18px;
   margin: 16px 0 8px;
+  font-style: italic;
 }
 
 h4 {
   font-weight: bold;
-  font-size: 1em;
-  margin-top: 0.5em;
+  font-size: 16px;
+  margin-top: 16px 0 8px;
 }
-
-h5 {
-margin-bottom: 1.5em;
-font-size: 1em; /* 16 / 16 = 1 */ }
-
-h6 {
-font-size: 1em; /* 16 / 16 = 1 */ }
 
 /* 3.TYPOGRAPHY */
 
-p,
-ol,
-ul,
-dl,
-address {
-margin-bottom: 1.5em;
-font-size: 1em; /* 16 / 16 = 1 */ }
+p, ol, ul, dl, address {
+  margin-bottom: 24px;
+  font-size: 1em;
+}
 
-ul,
-ol {
-margin: 0 0 1.5em -24px;
-padding-left: 24px;
+ul, ol {
+  margin: 0 0 24px -24px;
+  padding-left: 24px;
 }
 
 ul {
   list-style-position: outside;
   list-style-type: disc;
-  line-height: 1.5;
 }
 ol {
   list-style-position: outside;
@@ -360,7 +359,7 @@ pre {
   margin: 1.5em 0 0;
 }
 code, pre code {
-  font-family: Consolas,"Lucida Console",Monaco,monospace;
+  font-family: Consolas, "Lucida Console", Monaco, monospace;
 }
 p code, li code,*: not(pre) code {
   background-color: #ddd;
@@ -381,14 +380,15 @@ small {
 
 a, a:visited {
   outline: none;
-  color: rgb(23,119,175);
+  color: rgb(50,50,50);
   text-decoration: none;
+  border-bottom: 1px dotted rgb(80,80,80);
 }
 
 a:hover {
   outline: none;
-  color: rgb(40,40,40);
-  text-decoration: underline;
+  color: rgb(20,20,20);
+  border-bottom: 1px solid rgba(80,80,80, 0.5);
 }
 
 a:active, a:focus {
@@ -443,20 +443,108 @@ caption {
 /* 7.FORMS (See css/mylibs/forms.css) */
 
 /* 8.BANNER */
+
+header[role=banner],
+header[role=banner] hgroup {
+  position: relative;
+}
+header[role=banner] h1 {
+  font-size: 26px;
+  padding-bottom: 71px;
+  margin-bottom: 24px;
+}
+.wf-active header[role=banner] h1 {
+  font-size: 32px;
+}
+header[role=banner] h1 a {
+  border-bottom: none;
+}
+header[role=banner] h2 {
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+header[role=banner] h2 .amp {
+  font-style: italic;
+  font-family: Baskerville, Constantia, Palatino, "Palantino Linotype" "Times New Roman", Times, serif;
+  font-size : 1.3em;
+}
+
+header[role=banner] #links {
+  position: absolute;
+  top: 4px;
+  right: 0;
+}
+header[role=banner] #links a {
+  display: block;
+  float: left;
+  width: 34px;
+  height: 42px;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  border: none;
+}
+.opacity header[role=banner] #links a {
+  opacity: 0.2;
+}
+.cssanimations header[role=banner] #links a {
+  -webkit-transition-property: height;
+     -moz-transition-property: height;
+       -o-transition-property: height;
+          transition-property: height;
+  -webkit-transition-duration: .5s;
+     -moz-transition-duration: .5s;
+       -o-transition-duration: .5s;
+          transition-duration: .5s;
+}
+.opacity.cssanimations header[role=banner] #links a {
+  -webkit-transition-property: height, opacity;
+     -moz-transition-property: height, opacity;
+       -o-transition-property: height, opacity;
+          transition-property: height, opacity;
+}
+.borderradius header[role=banner] #links a {
+  -webkit-border-radius: 0 0 4px 4px;
+     -moz-border-radius: 0 0 4px 4px;
+       -o-border-radius: 0 0 4px 4px;
+          border-radius: 0 0 4px 4px;
+}
+header[role=banner] #links a:hover,
+header[role=banner] #links a:focus {
+  height: 48px;
+}
+.opacity header[role=banner] #links a:hover,
+.opacity header[role=banner] #links a:focus {
+  opacity: 1;
+}
+header[role=banner] #links .twitter {
+  background-image: url(/images/style/twitter-banner.png);
+}
+header[role=banner] #links .facebook {
+  background-image: url(/images/style/facebook-banner.png);
+}
+header[role=banner] #links .github {
+  background-image: url(/images/style/github-banner.png);
+}
+header[role=banner] #links .dribbble {
+  background-image: url(/images/style/dribbble-banner.png);
+}
+
+#promotion {
+  display: none;
+}
+
 /* 9.NAVIGATION */
 /* 10.CONTENT */
 
-.kicker {
-  font-size: 24px;
-  line-height: 32px;
+.single p:first-child {
+  font-size: 18px;
+  line-height: 24px;
   font-weight: 100;
   font-style: italic;
-}
-.kicker *: :first-line {
-  font-weight: bold;
-  font-style: normal;
-  font-size: 1em;
-  letter-spacing: 0;
 }
 
 .pullquote {
@@ -470,7 +558,8 @@ caption {
   width: 40%;
   font-weight: 100;
 }
-.pullquote: before {font-family: Monaco,Consolas,"Lucida Console",monospace;
+.pullquote: before {
+  font-family: Monaco,Consolas,"Lucida Console",monospace;
   content: "“";
   font-size: 2em;
   font-style: normal;
