@@ -1,4 +1,4 @@
-/* 480 
+/* 480
 
 _____________________________________________________
 
@@ -24,13 +24,18 @@ _____________________________________________________
 12.COMPLIMENTARY — div[role="complementary"]
 13.CONTENTINFO — footer[role="contentinfo"]
 14.GLOBAL OBJECTS
-15.VENDOR-SPECIFIC 
+15.VENDOR-SPECIFIC
 16.TEMPLATE SPECIFICS
 17.MODERNIZR
 
 */
 
 /* 1.ROOT */
+
+body {
+  width: 436px;
+}
+
 /* 2.HEADINGS */
 /* 3.TYPOGRAPHY */
 /* 4.LINKS */
