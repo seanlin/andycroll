@@ -2,17 +2,17 @@
 title: Running RedDotRubyConf 2011
 date: 09/05/2011
 
-<div class="kicker">
-This is about the process I went through to make RDRC2011 happen, other people (who saw more of the conference) have written better and more detailed reports than I could. If you want to know who attended, look here.
-</div>
+When I was getting progressively more drunk at the after-party (thank you [Github][]) Sarah Mei compared my agreeing to run RDRC to pregnancy… you start off with a small commitment and by the time the date arrives it’s this huge thing you never could have imagined: an apt metaphor I think.
 
-When I was getting progressively drunker at the after-party (thank you Github) Sarah Mei compared my agreeing to run RDRC to pregnancy… you start off with a small commitment and by the time it the date arrives it’s this huge thing: an apt metaphor I think.
+[github]: http://github.com
 
-Possibly the most tiring week of my life, but also one of the most satisfying, when I was able to take a fleeting moment to see the auditorium filled with enthused faces, listening to great talks I was able to feel a little swell of pride. I made this. :-)
+This is not my writeup of the conference, other people have written better and more detailed reports than I could. This is the thoughts, deeds and friends who helped make it happen.
 
-But I didn’t do it alone, Carl & Jason, the sponsors, my co-workers, the speakers and the attendees all helped make rdrc2011 one of the things I’ve done in my life of which I’m the proudest.
+The most tiring week of my life, but also one of the most satisfying. And I didn’t do it alone, [Carl][] & [Jason][], the sponsors, [my co-workers][Anideo], the speakers and the attendees all helped make rdrc2011 one of the things I’ve done in my life of which I’m the most proud.
 
-I’m going to name check venues and suppliers here and be honest about their performance, for anyone thinking of running an event in Singapore. I’ll also go into some of my thoughts.
+[carl]: http://twitter.com/carlcoryell
+[jason]: http://twitter.com/jasonong
+[anideo]: http://anideo.com
 
 ## Initial Preparation
 
@@ -20,23 +20,21 @@ We initially met in November where the idea of a conference was mooted at a low 
 
 From here Jason and I emailed a few Ruby heavyweights simply asking if they fancied an economy class flight and four nights in Singapore in exchange for speaking at a potential conference. We had a few 'no' responses but both Matz and Dave Thomas were immediately keen and we knew that with these two we had enough of a hook to bring in initial ticket sales.
 
-I asked Tom if he was willing to head over (we'd previously met at SchnitzelConf last year) and whether Github would sponsor some drinks. He agreed, as did Chad Fowler and we had our four 'keynote' speakers.
+I asked Tom if he was willing to head over (we'd previously met at SchnitzelConf last year) and whether Github would sponsor some drinks. He agreed, as did Chad Fowler and we had our four ‘keynote’ speakers.
 
-It was always in my head to expand the number of 'well known' speakers in the event that tickets were selling well enough. So I kept Mikel and Gregg 'warm' in the hope that I'd be able to get them accross to speak. Pleasingly, and with Ian coming over as part of Pivotal's contribution, we were able to make that happen. Sadly Chad had to drop out do to a change in his circumstances but he's promised he's 'in' for next year.
-
-I knocked the [website][rdrc] together over the Christmas holiday period, it's responsive, so it looks good on mobiles as well as desktops.
+It was always in my head to expand the number of ‘known’ speakers in the event that tickets were selling well enough. So I kept Mikel and Gregg warm in the hope that I'd be able to get them across to speak. Pleasingly, and with Ian coming over as part of Pivotal's contribution, we were able to make that happen. Sadly Chad had to drop out do to a change in his circumstances but he's promised he's coming next year.
 
 [rdrc]: http://reddotrubyconf.com
 
-I also decided to use wufoo to do the ticketing, most event management sites take a percentage of every ticket on top of the credit card or paypal fees and I was concerned about the budget. With only a $29 monthly charge for their paypal integration I figured it was worth a little extra legwork with CSVs.
+I decided to use wufoo to do the ticketing, most event management sites take a percentage of every ticket on top of the credit card or paypal fees and I was concerned about the budget. With only a $29 monthly charge for their paypal integration I figured it was worth a little extra legwork with CSVs.
 
-So in early January we were go.
+I knocked the responsive [website][rdrc] together over the Christmas holiday period and in early January we were go.
 
 ## Principles
 
 My principles for the conference were pretty simple.
 
-<span class="run-in">Cost.</span> We should not be giving away tickets, and in fact should price them at a reasonable level: enough so that the experience would not be cheap enough to write off or waste time at. The conference should be an investment for the attendees. This obviously left a conundrum of trying to attract Rubyists from neighbouring nations where $250 is a lot of money (even without the high travel and hotel costs). I hope to be able to do something to fix these issues next year.
+<span class="run-in">Cost.</span> We should not be giving away tickets, and in fact should price them at a reasonable level: enough so that the experience would not be cheap enough to write off to avoid no-shows. The conference should be an investment for the attendees. This obviously left the conundrum of trying to attract Rubyists from neighbouring nations where $250 is a lot of money (even without the high travel and hotel costs). I hope to be able to do something to fix these issues next year.
 
 <span class="run-in">Time facism.</span> Conferences that run over are badly run. It's important to encourage speakers to be succinct and for the audience to afford them the respect of their punctuality. Conferences are tiring social occasions, the least you can do for everyone is to be organisaed and finish on time.
 
@@ -48,21 +46,26 @@ My solution to a potential lack of variety was to opt for short talks, of 20 min
 
 I also wanted the badge to contain any critical information like the schedule, printing a load of booklets that nobody wants or needs was time I didn't want to invest.
 
-<span class="run-in">Caffeine is important, as is food.</span> I hate the big vats of coffee that sit and stew unappetisingly for the whole day, so I stole an idea from SchnitzelConf which was to run Nespresso-esque coffee machines and let the engineers figure it out. I am the best customer ever at the Bras Basah branch of Coffee Bean & Tea Leaf. Plus I was able to gift the machines to the guys who helped me out the most during the two days.
+<span class="run-in">Caffeine is important, as is food.</span> I hate the big vats of coffee that sit and stew unappetisingly for the whole day, so I stole an idea from SchnitzelConf which was to run Nespresso-esque coffee machines and let the engineers figure it out. _I am the best customer ever at the Bras Basah branch of Coffee Bean & Tea Leaf_. Plus I was able to gift the machines to the guys who helped me out the most during the two days.
 
-We are also the only Ruby conference ever to provide Asian Red Bull as a mid-afternoon pick me up. It's the good stuff.
+We are also the only Ruby conference ever to provide Asian Red Bull as a mid-afternoon pick me up. It's serious stuff.
 
-250 people drink a lot. Jason and I filled a family sedan with bottled water and Coke Zero from a local hypermarket. Twice. I chose those particular drinks because I knew that I would eventually drink anything that was left over, fact was there was hardly anything left.
+250 people drink a lot. Jason and I filled a family sedan with bottled water and Coke Zero from a local hypermarket. Twice. I chose those particular drinks because I knew that I would eventually drink anything that was left over, but there was hardly anything left.
 
 The caterer was excellent. As we didn't have time to do a lot of testing and tasting, we truly got lucky on this one.
 
-<span class="run-in">Be pessimistic.</span> My initial estimate for the conference was about 100-120 attendees on a single day. This was my first conference so I wanted to minimize my risk and amount of work! I was encouraged to aim a bit bigger in particular by Chris who always had the vision that this could be a bigger event. But is designed the event so we could grow to accomodate more people if the demand was there.
+<span class="run-in">Be pessimistic.</span> My initial estimate for the conference was about 100-120 attendees on a single day. This was my first conference so I wanted to minimize my risk and amount of work! I was encouraged to aim a bit bigger, in particular by Chris, who always had the vision that this could be a bigger event. But I designed the event so we could grow to accommodate more people if the demand was there.
 
 My initial estimates of costs meant a minimum of 150 attendees and a few sponsors would mean I would break even. I remained pessimistic about attendance and kept costs low wherever I could. For example, we bought video cameras and taped the talks ourselves rather than pay several thousand dollars for a pro-AV crew.
 
-<span class="run-in">Limit the Sponsors.</span> Conferences in Asia tend to have about 4,000 sponsors at several levels of Platinum, Diamond, Gold sponsorship. I'm not really into that. I wanted four or five sponsors that would put up a significant (a few thousand dollars) amount and also be committed to sending people.
+<span class="run-in">Limit the Sponsors.</span> Conferences in Asia tend to have about 4,000 sponsors at several levels of Platinum, Diamond, Gold sponsorship. I'm not really into that. I wanted four or five sponsors that would put up a significant (a few thousand dollars) amount and also be committed to sending paid attendees.
 
-By limiting the number of sponsors we'd also not be devaluing their commitment to helping make this event happen for the community. Sponsors also got early bird pricing for all their employees. Without the early commitment of sponsors I could not have made this event happen, they provided the financial cushion that made this possible.
+Without their early commitment I could not have made this event happen, they provided the financial cushion that made this possible. Thanks again to [HP Labs][], [Pivotal][], [ViKi][], [Rubify][] and [Github][].
+
+[hp labs]: http://hp.com
+[pivotal]: http://pivotallabs.com
+[viki]: http://viki.com
+[rubify]: http://rubify.com
 
 <span class="run-in">Swag that isn’t rubbish.</span> I wanted to make sure that whatever was in the conference goodie bag was useful. I shipped a load of high-quality Field Notes notebooks from the US and hand stamped each one: custom printed was more expensive and only availible in black. For t-shirts my mission was simple, don't make them so hideous that no-one will wear them afterwards. I hope I succeeded. The real trick was in trying not to order too many or too few, and in the right sizes.
 
@@ -90,9 +93,9 @@ I did try and group rough themes together but didn't have an overall premise for
 
 ## Mistakes
 
-There were two personal mistakes that I made. Firstly I didn’t ask for help early enough. Carl being the dillgent, calm and efficient hero he is saved my bacon on the early morning of day one. The lucky use of Jason's family car, trolley, time and good humour proved essential tools in the two days prior to the conference. I took on a lot of stuff myself, including design of all materials and even filling bags of swag, in future I'd try and get a bit more help.
+There were two personal mistakes that I made. Firstly I didn’t ask for help early enough. Carl being the diligent, calm and efficient hero who saved my bacon on the early morning of day one. The fortunate use of Jason's family car, trolley, time and good humour proved essential in the two days prior to the conference. I took on a lot of stuff myself, including design of all materials and even filling bags of swag, in future I'd try and get a bit more help.
 
-Also don’t be a 12 hour flight away from the conference the weekend before it happens. I woke up in Ireland on the Monday before the Friday conference because a good friend was getting married, plus I had been in the UK the week before. This compressed the preperation into a couple of frenetic days of constant motion where any problem would have had no chance of resolution. Thankfully there were no big mistakes in those two days.
+Also, don’t be a 12 hour flight away from the conference the weekend before it happens. I woke up in Ireland on the Monday before the Friday conference because a good friend was getting married, and I had been in the UK the week before. This compressed the preparation into a couple of frenetic days where any problem would have had no chance of resolution. Thankfully there were no insurmountable mistakes in the lead up.
 
 ## Improvements
 
@@ -114,25 +117,25 @@ I've always been an open kind of guy, so here are the headline financial numbers
 
 ### Income
 
-*Sponsorship:*  27,000  
-*Ticket Sales:* 40,000
+ * *Sponsorship:*  27,000
+ * *Ticket Sales:* 40,000
 
-#### TOTAL: 67,000 SGD
+**TOTAL: 67,000 SGD**
 
 ### Costs
 
-*Venue:*  10,000  
-*Travel:* 11,000  
-*Hotels:*  4,000  
-*Swag:*    4,000  
-*Print:*   1,000  
-*Food:*    7,000  
-*Drink:*   1,000  
-*Coffee:*  2,000  
-*Party:*  10,000  
-*Misc:*    3,000
+ * *Venue:*  10,000
+ * *Travel:* 11,000
+ * *Hotels:*  4,000
+ * *Swag:*    4,000
+ * *Print:*   1,000
+ * *Food:*    7,000
+ * *Drink:*   1,000
+ * *Coffee:*  2,000
+ * *Party:*  10,000
+ * *Misc:*    3,000
 
-#### TOTAL:  53,000 SGD
+**TOTAL:  53,000 SGD**
 
 So profitable? Yes. Wildly? No. Was that the plan? Also no. Primary motivation was to do a 'good thing' and not be financially broken. In fact in terms of day rate x days spent I'm probably about even. It seems going into event management for the money is a fools errand.
 
