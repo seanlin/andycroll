@@ -2,9 +2,9 @@
 title: Running RedDotRubyConf 2011
 date: 09/05/2011
 
-When I was getting progressively more drunk at the after-party (thank you [Github][]) Sarah Mei compared my agreeing to run RDRC to pregnancy… you start off with a small commitment and by the time the date arrives it’s this huge thing you never could have imagined: an apt metaphor I think.
-
 [github]: http://github.com
+
+When I was getting progressively more drunk at the after-party (thank you [Github][]) Sarah Mei compared my agreeing to run RDRC to pregnancy… you start off with a small commitment and by the time the date arrives it’s this huge thing you never could have imagined: an apt metaphor I think.
 
 This is not my writeup of the conference, other people have written better and more detailed reports than I could. This is the thoughts, deeds and friends who helped make it happen.
 
