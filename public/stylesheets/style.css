@@ -569,6 +569,10 @@ header[role=banner] #links .dribbble {
   line-height: 1.15;
 }
 
+.more {
+  margin-bottom: 24px;
+}
+
 /* 11.MAIN */
 
 .hentry header {
