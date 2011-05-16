@@ -66,11 +66,12 @@
       %a.dribbble.ir{ :href => "http://dribbble.com/andycroll", :title => "Andy Croll on dribbble" } dribbble
 
   %aside#promotion
-    %h3
+    %h1
       I help make stuff at
       %a{ :href => "http://anideo.com/", :title => "anideo: products for web and mobile" } anideo
     %a.tunedin{ :href => "http://tunedinapp.com", :title => "Event-based group chat" } TunedIn
     %a.todaysnews{ :href => "http://todaysnewsapp.com", :title => "Newspapers reinvented" } Today’s News
+    %a.fotobookapp{ :href => "http://fotobookapp.com", :title => "Facebook Photos for iPhone, but better" } Fotobook
 
   %section{ :role => "main" }
     = yield
@@ -95,6 +96,5 @@
   %script
     try{Typekit.load();}catch(e){}
   /[if (lt IE 9) & (!IEMobile)]
-    %script{ :src => "/javascripts/libs/DOMAssistantCompressed-2.8.js" }
     %script{ :src => "/javascripts/libs/selectivizr-1.0.1.js" }
     %script{ :src => "/javascripts/libs/respond.min.js" }
