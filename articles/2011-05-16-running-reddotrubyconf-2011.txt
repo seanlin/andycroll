@@ -1,6 +1,6 @@
 ---
 title: Running RedDotRubyConf 2011
-date: 09/05/2011
+date: 16/05/2011
 
 [github]: http://github.com
 
@@ -143,7 +143,9 @@ So profitable? Yes. Wildly? No. Was that the plan? Also no. Primary motivation w
 
 ## Next
 
-The video's are currently in production and will shortly be appearing on ViKi and on a mini-site within Pivotal's talks website; they've continued to sponsor the conference by getting them professionally edited and they are looking really good.
+The video's are currently in production and will shortly be appearing on [ViKi][] and on a mini-site within [Pivotal's talks][pivotaltalks] website; they've continued to sponsor the conference by getting them professionally edited and they are looking really good.
+
+[pivotaltalks]: http://pivotallabs.com/talks
 
 I'm slowing coming around to the idea of next year as the 'conference lag' recedes. I'll know better what to do in the weeks before and on the day I think it'll be a little less stressful, now I've run a large event.
 
