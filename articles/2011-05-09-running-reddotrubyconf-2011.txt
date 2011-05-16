@@ -44,7 +44,7 @@ My solution to a potential lack of variety was to opt for short talks, of 20 min
 
 <span class="run-in">Badges.</span> Conference badges are to let other people know your name when you are the 40th person they have met that morning, not for reminding you where you are. Most conference badges forget this, I made sure I didn't.
 
-I also wanted the badge to contain any critical information like the schedule, printing a load of booklets that nobody wants or needs was time I didn't want to invest.
+I also wanted the badge to contain critical information like the schedule, printing a load of booklets that nobody wants or needs was time I didn't want to invest.
 
 <span class="run-in">Caffeine is important, as is food.</span> I hate the big vats of coffee that sit and stew unappetisingly for the whole day, so I stole an idea from SchnitzelConf which was to run Nespresso-esque coffee machines and let the engineers figure it out. _I am the best customer ever at the Bras Basah branch of Coffee Bean & Tea Leaf_. Plus I was able to gift the machines to the guys who helped me out the most during the two days.
 
@@ -73,7 +73,7 @@ Without their early commitment I could not have made this event happen, they pro
 
 I did try and group rough themes together but didn't have an overall premise for the two days. Talks tended to coalesce naturally into themes as the conference goes on and speakers react to earlier talks. I think I'd feel a bit more comfortable to curate the topics a little more in future.
 
-### Suppliers I used
+### Suppliers
 
 * **Venue:** Mary Ho at [SMU][smu]
 * **T-shirts:** Simon at [Accl Pte Ltd][accl]
@@ -113,33 +113,37 @@ I may also change the timing of the conference to avoid the run up to the end of
 
 ## Finances
 
-I've always been an open kind of guy, so here are the headline financial numbers for the conference. I figure it's got to help someone.
+I've always been an open kind of guy, so here are the ballpark financial numbers for the conference. I figure it's got to help someone.
+
+*All numbers in Singapore Dollars.*
 
 ### Income
 
  * *Sponsorship:*  27,000
- * *Ticket Sales:* 40,000
+ * *Ticket Sales:* 38,000
 
-**TOTAL: 67,000 SGD**
+**TOTAL: 65,000 SGD**
 
 ### Costs
 
  * *Venue:*  10,000
- * *Travel:* 11,000
+ * *Travel:* 12,000
  * *Hotels:*  4,000
  * *Swag:*    4,000
  * *Print:*   1,000
- * *Food:*    7,000
+ * *Food:*    8,000
  * *Drink:*   1,000
  * *Coffee:*  2,000
  * *Party:*  10,000
  * *Misc:*    3,000
 
-**TOTAL:  53,000 SGD**
+**TOTAL:  55,000 SGD**
 
 So profitable? Yes. Wildly? No. Was that the plan? Also no. Primary motivation was to do a 'good thing' and not be financially broken. In fact in terms of day rate x days spent I'm probably about even. It seems going into event management for the money is a fools errand.
 
 ## Next
+
+The video's are currently in production and will shortly be appearing on ViKi and on a mini-site within Pivotal's talks website; they've continued to sponsor the conference by getting them professionally edited and they are looking really good.
 
 I'm slowing coming around to the idea of next year as the 'conference lag' recedes. I'll know better what to do in the weeks before and on the day I think it'll be a little less stressful, now I've run a large event.
 
