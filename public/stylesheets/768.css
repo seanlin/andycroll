@@ -37,15 +37,6 @@ body {
 }
 
 /* 2.HEADINGS */
-
-h1 {
-  font-size: 26px;
-  padding-bottom: 43px;
-}
-.wf-active h1 {
-  font-size: 32px;
-}
-
 /* 3.TYPOGRAPHY */
 /* 4.LINKS */
 /* 5.FIGURES & IMAGES */
@@ -60,9 +51,12 @@ header[role=banner] {
 
 #promotion {
   position: absolute;
-  top: 118px; right: 0;
+  top: 12em; right: 0;
   display: block;
   width: 252px;
+}
+#promotion h3 {
+  margin: 0;
 }
 
 /* 9.NAVIGATION */

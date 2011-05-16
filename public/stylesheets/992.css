@@ -1,4 +1,4 @@
-/* 992 
+/* 992
 
 _____________________________________________________
 
@@ -24,13 +24,23 @@ _____________________________________________________
 12.COMPLIMENTARY — div[role="complementary"]
 13.CONTENTINFO — footer[role="contentinfo"]
 14.GLOBAL OBJECTS
-15.VENDOR-SPECIFIC 
+15.VENDOR-SPECIFIC
 16.TEMPLATE SPECIFICS
 17.MODERNIZR
 
 */
 
 /* 1.ROOT */
+
+html {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+body {
+  width: 896px;
+}
+
 /* 2.HEADINGS */
 /* 3.TYPOGRAPHY */
 /* 4.LINKS */
@@ -38,9 +48,26 @@ _____________________________________________________
 /* 6.TABLES */
 /* 7.FORMS (See css/mylibs/forms.css) */
 /* 8.BANNER */
+
+header[role=banner] {
+  width: 344px;
+  float: right;
+}
+
+#promotion {
+  width: 344px;
+}
+
 /* 9.NAVIGATION */
 /* 10.CONTENT */
 /* 11.MAIN */
+
+section[role=main] {
+  width: 528px;
+  margin-right: 24px;
+  float: left;
+}
+
 /* 12.COMPLIMENTARY */
 /* 13.CONTENTINFO */
 /* 14.GLOBAL OBJECTS */

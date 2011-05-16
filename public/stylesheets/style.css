@@ -106,14 +106,14 @@ hr {
 html {
   overflow-y: scroll;
   background: rgb(250,250,250) url(/images/style/fabric_1.gif) repeat 50% 0;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 body {
   margin: 0 auto;
-  padding: 24px 0;
+  padding: 1.5em 0;
   width: 252px;
-  font-size: 16px;
-  line-height: 24px;
   background-color: transparent;
   color: rgb(40,40,40);
   position: relative;
@@ -132,11 +132,11 @@ h1 {
 
 h2, h3, h4, h5, h6,
 .sidenote h1, aside h1 {
-  font-family: Georgia, serif;
+  font-family: Georgia, Times, "Times New Roman", serif;
 }
 
 p, ul, ol, form {
-  margin: 0 0 24px;
+  margin: 0 0 1.5em;
 }
 
 abbr {
@@ -209,28 +209,35 @@ a.superscript,a.subscript {
 .run-in {
   font-style: italic;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.125em;
+  line-height: 1.25em;
 }
 
 /* 2.HEADINGS */
 
 h1 {
-  font-size: 19px;
   font-weight: normal;
-  line-height: 36px;
-  margin: 0 0 16px;
-  border-top: 4px solid #000;
-  border-bottom: 1px solid #ccc;
-  padding: 4px 0 31px;
+  font-size: 1.125em;
+  line-height: 2;
+  margin: 0 0 1.33333em;
+  border-top: 0.22222em solid #000;
+  border-bottom: 0.05667em solid #ccc;
+  padding: 0.44444em 0 1.33333em;
 }
 .wf-active h1 {
-  font-size: 24px;
+  font-size: 1.5em;
+  line-height: 1.5;
+  margin: 0 0 1em;
+  border-top: 0.16667em solid #000;
+  border-bottom: 0.04167em solid #ccc;
+  padding: 0.16667em 0 1.125em;
 }
 
 h2 {
-  font-size: 16px;
-  line-height: 24px;
-  margin: 16px 0 8px;
+  font-family: "Helvetica Neue", "Arial", "Helvetica", sans-serif;
+  font-size: 1em;
+  line-height: 1em;
+  margin: 1.5em 0 0.5em 0;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -240,27 +247,28 @@ h1+img, h2+img {
 }
 
 h3 {
-  font-size: 18px;
-  margin: 16px 0 8px;
+  font-size: 1.125em;
+  line-height: 0.8889em;
+  margin: 0 0 0.44444em;
   font-style: italic;
 }
 
 h4 {
   font-weight: bold;
   font-size: 16px;
-  margin-top: 16px 0 8px;
+  margin-top: 1em 0 0.5em;
 }
 
 /* 3.TYPOGRAPHY */
 
 p, ol, ul, dl, address {
-  margin-bottom: 24px;
   font-size: 1em;
+  margin-bottom: 1.5em;
 }
 
 ul, ol {
-  margin: 0 0 24px -24px;
-  padding-left: 24px;
+  margin: 0 0 1.5em -1.5em;
+  padding-left: 1.5em;
 }
 
 ul {
@@ -272,7 +280,7 @@ ol {
   list-style-type: decimal;
 }
 li {
-  margin-bottom: 8px;
+  margin-bottom: 0.75em;
 }
 
 dl {
@@ -288,7 +296,6 @@ dd {
   font-size: 1em;
   margin-top: 1em;
   margin-right: 5em;
-  line-height: 1.6;
   border-left: 1px solid #ccc;
   padding-left: 1em;
 }
@@ -305,7 +312,7 @@ blockquote: before {
   text-indent: -0.75em;
   float: left;
   opacity: 0.3;
-  line-height: 1.25;
+/*  line-height: 1.25;*/
 }
 cite {
   display: block;
@@ -369,10 +376,9 @@ p code, li code,*: not(pre) code {
 
 small {
   display: block;
-  font-size: 12px;
+  font-size: 0.75em;
   letter-spacing: 0.05em;
-  margin: 20px 0 -4px;
-  line-height: 24px;
+  margin: 1.6em 0 -0.4em;
   opacity: 0.6;
 }
 
@@ -449,18 +455,28 @@ header[role=banner] hgroup {
   position: relative;
 }
 header[role=banner] h1 {
-  font-size: 26px;
-  padding-bottom: 71px;
-  margin-bottom: 24px;
+  font-size: 1.625em; /* 26 (Impact looks bigger) */
+  line-height: 1.38462; /* 36 / 26 */
+  border-top: 0.15385em solid #000; /* 4 / 26 */
+  border-bottom: 0.03846em solid #ccc; /* 1 / 36 */
+  margin: 0 0 0.92307em; /* 24 / 26 */
+  padding: 0.15385em 0 2.88461em; /* 75 / 26 */
 }
+
 .wf-active header[role=banner] h1 {
-  font-size: 32px;
+  font-size: 2em; /* 32 */
+  line-height: 1.124em; /* 36 / 32 */
+  border-top: 0.125em solid #000; /* 4 / 32 */
+  border-bottom: 0.03125em solid #ccc;
+  padding: 0.125em 0 2.34375em; /* 75 / 32 */
+  margin: 0 0 0.75em;
 }
 header[role=banner] h1 a {
   border-bottom: none;
 }
 header[role=banner] h2 {
-  font-size: 18px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 1.125em;
   font-weight: normal;
   text-transform: none;
   position: absolute;
@@ -468,14 +484,14 @@ header[role=banner] h2 {
   left: 0;
 }
 header[role=banner] h2 .amp {
+  font-family: "Baskerville", "Constantia", "Palatino", "Palantino Linotype", "Times New Roman", Times, serif;
   font-style: italic;
-  font-family: Baskerville, Constantia, Palatino, "Palantino Linotype" "Times New Roman", Times, serif;
   font-size : 1.3em;
 }
 
 header[role=banner] #links {
   position: absolute;
-  top: 4px;
+  top: 0.25em;
   right: 0;
 }
 header[role=banner] #links a {
@@ -541,13 +557,18 @@ header[role=banner] #links .dribbble {
 /* 10.CONTENT */
 
 .single p:first-child {
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 1.125em;
+  line-height: 1.33333em;
+  margin-bottom: 1.33333em;
   font-weight: 100;
   font-style: italic;
 }
 
-.pullquote {
+.more {
+  margin-bottom: 1.5em;
+}
+
+/*.pullquote {
   font-style: italic;
   margin: 0.5em 1.25em 0.3em 0;
   padding-top: 0.15em;
@@ -568,10 +589,7 @@ header[role=banner] #links .dribbble {
   opacity: 0.3;
   line-height: 1.15;
 }
-
-.more {
-  margin-bottom: 24px;
-}
+*/
 
 /* 11.MAIN */
 
@@ -582,32 +600,23 @@ header[role=banner] #links .dribbble {
   display: none;
 }
 .hentry time {
+  color: #999;
   position: absolute;
   bottom: 0; right: 0;
-  font-size: 14px;
+  font-size: 0.875em;
 }
 
 /* 12.COMPLIMENTARY */
 
-aside, .sidenote {
-  font-size: 0.875em;
-  font-style: italic;
-  margin-top: 1.25em;
-}
-aside h1, .sidenote h1 {
-  text-transform: uppercase;
-  font-size: 1.1em;
-  line-height: 1.5;
-  font-style: normal;
-  font-weight: 900;
-  margin-top: 1em;
-  padding-top: 0.5em;
-  border-top: 3px solid #000;
-  border-bottom: 1px solid #ccc;
+aside h1, .wf-active aside h1 {
+  font-size: 1.25em; /* 20 */
+  line-height: 1.2; /* 24 / 20 */
+  border-top: 0.2em solid #000;
+  border-bottom: none;
+  margin: 0 0 ;
+  padding: 0.2em 0 0.8em; /* 75 / 26 */
 }
 aside p, .sidenote p {
-  line-height: 1.7;
-  margin: 1.3em 0;
   font-style: normal;
 }
 aside ul, aside ol, .sidenote ul, .sidenote ol {
