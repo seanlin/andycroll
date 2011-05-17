@@ -24,6 +24,7 @@ end
 toto = Toto::Server.new do
   set :author,    "Andy Croll"                                # blog author
   set :title,     "Andy Croll"                                # site title
+  set :url,       "http://blog.andycroll.com"
   set :root,      "index"                                     # page to load on /
   # set :date,      lambda {|now| now.strftime("%d/%m/%Y") }  # date format for articles
   set :markdown,  :smart                                    # use markdown + smart-mode
