@@ -405,14 +405,29 @@ a:active, a:focus {
 /* 5.FIGURES & IMAGES */
 
 figure {
-  margin-bottom: 1.5em;
+  margin: 1.5em -0.75em;
 }
 
 figure img,
 figure object,
 figure embed {
-  margin-bottom: .75em;
-  max-width: 100%;
+  display: block;
+  padding: 0.75em;
+  max-width: 90%;
+  background-color: rgb(220,220,220);
+}
+.rgba figure img,
+.rgba figure object,
+.rgba figure embed {
+  background-color: rgba(20,20,20,0.25);
+}
+.borderradius figure img,
+.borderradius figure object,
+.borderradius figure embed {
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+       -o-border-radius: 4px;
+          border-radius: 4px;
 }
 
 figcaption {

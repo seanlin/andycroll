@@ -1,0 +1,41 @@
+---
+title: RedDotRubyConf 2011 Stats
+date: 19/05/2011
+
+I had to prepare a report as part of the post conference administrivia for sponsors, but mainly for the financial support of the [iDA][]. There are a lot of forms and dreadful ASP websites too. So I thought it'd be interesting to share some of the charts produced.
+
+[ida]: http://ida.gov.sg
+
+## Attendees by Country
+
+![2011 Attendee Countries](/images/2011/rdrc2011-countries.png)
+
+The understandable majority were Singapore-based but an impressive showing for most of the countries in the region.
+
+Next year I want to capture the original nationalities of attendee's as well as their current residence, I think the audience was more international than even this chart suggests.
+
+## Attendees by Company
+
+![2011 Attending Companies](/images/2011/rdrc2011-attending-companies.png)
+
+Interesting (and good) to see the huge support given by HP, not only in their sponsorship but also in the numbers of people they sent.
+
+Also good to see the presence of Anideo in the top 20: that's my company, why not checkout the stuff we're building?
+
+## Attendees working with Ruby
+
+![Attendees working with Ruby](/images/2011/rdrc2011-work-style.png)
+
+Once again unsurprising to see the vast majority of attendees were full-time rubyists. Although still a nice big number!
+
+## T-shirt sizes
+
+Finally a chart that might be of use to organizers of other geek conferences. Ordering the right number of T-shirts is a tricky job, the lead times are pretty long and you want everyone to get one they can wear and you don't want to have to order too many! I think my sample size is pretty typical of a geek event, feel free to apply these percentages to your own event!
+
+![T-shirt sizes](/images/2011/rdrc2011-tshirt-size.png)
+
+## More updates
+
+Videos *are* coming. Promise.
+
+
