@@ -6,9 +6,9 @@ Amongst all the fantastic stuff announced at [WWDC](http://www.apple.com/apple-e
 
 My first thought on seeing full screen Safari was how beautiful sites look as you eliminate the window chrome as much as possible.
 
-The other thing? How massive the canvas can now be for us web creatives. This means one thing: Responsive web design is getting even more important. It's not just the importance of having a site work on a small phone screen (hello restaurants with flash websites!) but now we also have to think more deeply about a site will look in full screen on a 27" iMac.
+The other thing? How massive the canvas can now be for us web creatives. This means one thing: [Responsive web design](http://www.alistapart.com/articles/responsive-web-design/) is getting even more important. It's not just the importance of having a site work on a small phone screen (hello restaurants with flash websites!) but now we also have to think more deeply about a site will look in full screen on a 27" iMac.
 
-This is also true of the way Internet Explorer works in the [preview of Windows 8](http://www.youtube.com/watch?v=p92QfWOw88I) that appeared last week.
+This is also true of the way Internet Explorer works full screen in the [preview of Windows 8](http://www.youtube.com/watch?v=p92QfWOw88I) that appeared last week.
 
 All of the sites I produce now are responsive:
 
