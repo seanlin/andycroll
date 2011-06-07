@@ -1,0 +1,35 @@
+---
+title: OS X Lion & Web Design
+date: 07/06/2011
+
+Amongst all the fantastic stuff announced at [WWDC](http://www.apple.com/apple-events/wwdc-2011/) yesterday, and let's not beat around the bush Apple are firing on all cylinders, the changes to how Lion deals with full screen apps has *huge* implications for web design.
+
+My first thought on seeing full screen Safari was how beautiful sites look as you eliminate the window chrome as much as possible.
+
+The other thing? How massive the canvas can now be for us web creatives. This means one thing: Responsive web design is getting even more important. It's not just the importance of having a site work on a small phone screen (hello restaurants with flash websites!) but now we also have to think more deeply about a site will look in full screen on a 27" iMac.
+
+This is also true of the way Internet Explorer works in the [preview of Windows 8](http://www.youtube.com/watch?v=p92QfWOw88I) that appeared last week.
+
+All of the sites I produce now are responsive:
+
+[Anideo]: http://anideo.com
+
+* [Anideo][]
+* [Fotobook](http://fotobookapp.com)
+* [Today's News](http://todaysnewsapp.com)
+* [Denso](http://getdenso.com)—coming soon!
+* [The Pigeonhole](http://pigeonhole.com.sg)
+* [RedDotRubyConf](http://reddotrubyconf.com)
+* [This site](http://andycroll.com)
+
+If you dig into the code of the projects I've done over the past six months you'll see I've tried various approaches. I've settled on an approach based on Andy Clarke's [320 and up](http://stuffandnonsense.co.uk/projects/320andup/) and broadly using the flexibility of [Less Framework](http://lessframework.com) to plan the layouts for various screens. This process has been refined over the latest [Anideo][] sites.
+
+The advantages of designing mobile-first are manyfold. I find the greatest advantage is in really simplifying the design to it's core; making sure you're focussed on the one or two things you need a user to do on your page.
+
+I like Less Framework as it allows me to have some great reuse given its flexible grid, and helps me prototype quickly, but doesn't pollute the HTML with extraneous non-semantic markup.
+
+If you're building websites and it's not responsive you need to **start now**.
+
+But, you're lucky. There's a book coming out tomorrow: [Responsive Web Design](http://www.abookapart.com/products/responsive-web-design). I haven't read it yet but I expect, like all the other 'Books Apart', it will be a **must** read. While you're buying that you might also want to get [Hardboiled Web Design](http://hardboiledwebdesign.com/) which I consider to be an opinionated masterpiece.
+
+Start upgrading your skills now. Something we always should be doing in our profession, but particularly relevent now.
