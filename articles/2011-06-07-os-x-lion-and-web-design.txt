@@ -18,7 +18,7 @@ All of the sites I produce now are responsive:
 * [Fotobook](http://fotobookapp.com)
 * [Today's News](http://todaysnewsapp.com)
 * [Denso](http://getdenso.com)—coming soon!
-* [The Pigeonhole](http://pigeonhole.com.sg)
+* [The Pigeonhole](http://thepigeonhole.com.sg)
 * [RedDotRubyConf](http://reddotrubyconf.com)
 * [This site](http://andycroll.com)
 
@@ -32,4 +32,4 @@ If you're building websites and it's not responsive you need to **start now**.
 
 But, you're lucky. There's a book coming out tomorrow: [Responsive Web Design](http://www.abookapart.com/products/responsive-web-design). I haven't read it yet but I expect, like all the other 'Books Apart', it will be a **must** read. While you're buying that you might also want to get [Hardboiled Web Design](http://hardboiledwebdesign.com/) which I consider to be an opinionated masterpiece.
 
-Start upgrading your skills now. Something we always should be doing in our profession, but particularly relevent now.
+Start upgrading your skills now. Something we always should be doing in our profession, but particularly relevant now.
