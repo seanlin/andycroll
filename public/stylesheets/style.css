@@ -113,7 +113,7 @@ html {
 body {
   margin: 0 auto;
   padding: 1.5em 0;
-  width: 252px;
+  width: 80%;
   background-color: transparent;
   color: rgb(40,40,40);
   position: relative;
@@ -492,6 +492,7 @@ header[role=banner] h1 a {
 header[role=banner] h2 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 1.125em;
+  line-height: 1.33333333;
   font-weight: normal;
   text-transform: none;
   position: absolute;
@@ -499,9 +500,10 @@ header[role=banner] h2 {
   left: 0;
 }
 header[role=banner] h2 .amp {
+  position: relative;
   font-family: "Baskerville", "Constantia", "Palatino", "Palantino Linotype", "Times New Roman", Times, serif;
   font-style: italic;
-  font-size : 1.3em;
+/*  font-size : 1.3em;*/
 }
 
 header[role=banner] #links {

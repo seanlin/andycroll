@@ -33,12 +33,13 @@ _____________________________________________________
 /* 1.ROOT */
 
 html {
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 24px;
+  line-height: 36px;
 }
 
 body {
-  width: 896px;
+  width: 80%;
+  max-width: 1400px;
 }
 
 /* 2.HEADINGS */
@@ -48,26 +49,9 @@ body {
 /* 6.TABLES */
 /* 7.FORMS (See css/mylibs/forms.css) */
 /* 8.BANNER */
-
-header[role=banner] {
-  width: 344px;
-  float: right;
-}
-
-#promotion {
-  width: 344px;
-}
-
 /* 9.NAVIGATION */
 /* 10.CONTENT */
 /* 11.MAIN */
-
-section[role=main] {
-  width: 528px;
-  margin-right: 24px;
-  float: left;
-}
-
 /* 12.COMPLIMENTARY */
 /* 13.CONTENTINFO */
 /* 14.GLOBAL OBJECTS */
