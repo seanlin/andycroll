@@ -126,13 +126,20 @@ dt,blockquote,cite,
 }
 
 h1 {
-  font-family: "atrement-web-1", "atrement-web-2", Impact, sans-serif;
+  font-family: "atrement-web-1", "atrement-web-2", "Helvetica Neue", Arial, sans-serif;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+.wf-active h1 {
   font-weight: normal;
+  letter-spacing: 0;
 }
 
 h2, h3, h4, h5, h6,
 .sidenote h1, aside h1 {
   font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: normal;
+  letter-spacing: 0;
 }
 
 p, ul, ol, form {
@@ -210,27 +217,18 @@ a.superscript,a.subscript {
   font-style: italic;
   font-weight: bold;
   font-size: 1.125em;
-  line-height: 1.25em;
+  line-height: 1.25;
 }
 
 /* 2.HEADINGS */
 
 h1 {
-  font-weight: normal;
-  font-size: 1.125em;
-  line-height: 2;
-  margin: 0 0 1.33333em;
-  border-top: 0.22222em solid #000;
-  border-bottom: 0.05667em solid #ccc;
-  padding: 0.44444em 0 1.33333em;
-}
-.wf-active h1 {
   font-size: 1.5em;
   line-height: 1.5;
   margin: 0 0 1em;
-  border-top: 0.16667em solid #000;
-  border-bottom: 0.04167em solid #ccc;
-  padding: 0.16667em 0 1.125em;
+  border-top: 0.125em solid #000;
+  border-bottom: 0.0416666667em solid #ccc;
+  padding: 0.125em 0 1.125em;
 }
 
 h2 {
@@ -405,15 +403,15 @@ a:active, a:focus {
 /* 5.FIGURES & IMAGES */
 
 figure {
-  margin: 1.5em -0.75em;
+  margin: 1.5em -2%;
 }
 
 figure img,
 figure object,
 figure embed {
   display: block;
-  padding: 0.75em;
-  max-width: 90%;
+  padding: 2%;
+  max-width: 94%;
   background-color: rgb(220,220,220);
 }
 .rgba figure img,
@@ -424,10 +422,10 @@ figure embed {
 .borderradius figure img,
 .borderradius figure object,
 .borderradius figure embed {
-  -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-       -o-border-radius: 4px;
-          border-radius: 4px;
+  -webkit-border-radius: 0.25em;
+     -moz-border-radius: 0.25em;
+       -o-border-radius: 0.25em;
+          border-radius: 0.25em;
 }
 
 figcaption {
@@ -470,22 +468,9 @@ header[role=banner] hgroup {
   position: relative;
 }
 header[role=banner] h1 {
-  font-size: 1.625em; /* 26 (Impact looks bigger) */
-  line-height: 1.38462; /* 36 / 26 */
-  border-top: 0.15385em solid #000; /* 4 / 26 */
-  border-bottom: 0.03846em solid #ccc; /* 1 / 36 */
-  margin: 0 0 0.92307em; /* 24 / 26 */
-  padding: 0.15385em 0 2.88461em; /* 75 / 26 */
+  padding-bottom: 3.475em;
 }
 
-.wf-active header[role=banner] h1 {
-  font-size: 2em; /* 32 */
-  line-height: 1.124em; /* 36 / 32 */
-  border-top: 0.125em solid #000; /* 4 / 32 */
-  border-bottom: 0.03125em solid #ccc;
-  padding: 0.125em 0 2.34375em; /* 75 / 32 */
-  margin: 0 0 0.75em;
-}
 header[role=banner] h1 a {
   border-bottom: none;
 }
@@ -496,19 +481,20 @@ header[role=banner] h2 {
   font-weight: normal;
   text-transform: none;
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   left: 0;
 }
 header[role=banner] h2 .amp {
   position: relative;
   font-family: "Baskerville", "Constantia", "Palatino", "Palantino Linotype", "Times New Roman", Times, serif;
   font-style: italic;
-/*  font-size : 1.3em;*/
+  font-size : 1.11111111111em;
+  line-height: 1.2;
 }
 
 header[role=banner] #links {
   position: absolute;
-  top: 0.25em;
+  top: 0.125em;
   right: 0;
 }
 header[role=banner] #links a {
@@ -621,6 +607,7 @@ header[role=banner] #links .dribbble {
   position: absolute;
   bottom: 0; right: 0;
   font-size: 0.875em;
+  line-height: 1.7142857143;
 }
 
 /* 12.COMPLIMENTARY */
@@ -628,10 +615,10 @@ header[role=banner] #links .dribbble {
 aside h1, .wf-active aside h1 {
   font-size: 1.25em; /* 20 */
   line-height: 1.2; /* 24 / 20 */
-  border-top: 0.2em solid #000;
+  border-top: 0.15em solid #000;
   border-bottom: none;
-  margin: 0 0 ;
-  padding: 0.2em 0 0.8em; /* 75 / 26 */
+  margin: 0;
+  padding: 0.45em 0 0.6em; /* 75 / 26 */
 }
 aside p, .sidenote p {
   font-style: normal;
