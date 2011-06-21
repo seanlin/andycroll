@@ -2,9 +2,9 @@
 title: Falling Out Of Love With Blogging Software
 date: 21/06/2011
 
-It was only a couple of months ago I couldn't imagine ever hosting my own blogging software again. I'd been through Textpattern, Wordpress, Tumblr and Posterous: all the time looking for that perfect platform that would help me write more. But we all know that [doesn't really happen][voltar].
-
 [voltar]: http://maxvoltar.com/archive/i-want-to-write-more
+
+It was only a couple of months ago I couldn't imagine ever hosting my own blogging software again. I'd been through Textpattern, Wordpress, Tumblr and Posterous: all the time looking for that perfect platform that would help me write more. But we all know that [doesn't really happen][voltar].
 
 I had thought Marco Arment and Dan Benjamin geeking out about building a simple blogging system (on their Build & Analyze podcast) was a crazy paranoid waste of time. And yet I wasn't happy.
 
@@ -22,16 +22,18 @@ So the latest version of my blog indulges my anal-retentive designer side as wel
 
 The design is fully responsive (I've made my way through [Ethan Marcotte's masterpiece][bkaprt4]) and I've even embraced a fluid grid, which I have to be honest feels a bit strange. I've based the design around a customised version of Andy Clarke's [320 and up][]. I'm a great believer in designing for multiple screens at teh same time, particularly in a 'mostly' text situation such a blog.
 
-The font-size and line-height scale with the window width and the fluid grid to retain a sensible line length for comfortable reading.
-
 [bkaprt4]: http://www.abookapart.com/products/responsive-web-design
 [320 and up]: http://stuffandnonsense.co.uk/projects/320andup/
 
+The font-size and line-height scale with the window width and the fluid grid to retain a sensible line length for comfortable reading.
+
 I'm running on Heroku (it's Varnish cache should protect against any traffic surges) and I have my writing as flat markdown files. I simply use [IA Writer] to draft a new post, and `git push` to Heroku. Feels good.
 
-[IA Writer]: http://www.informationarchitects.jp/en/ia-writer-for-mac/
+[IA Writer]: http://www.iawriter.com
 
 It feels both DIY but also terribly elegant, minimal tools, no database setup and no overheads. I need access to a 'real computer' to add posts, but then I find I do most of my writing at a computer rather than a 'post PC' device.
+
+No comments. [I'm with John Gruber](http://daringfireball.net/2010/06/whats_fair). *Second part of the article*.
 
 If you want to poke around in the source, it's on [github][]. No doubt further design enhancements and tweaks will continue, as will hopefully the writing.
 
