@@ -1,0 +1,38 @@
+---
+title: Falling Out Of Love With Blogging Software
+date: 21/06/2011
+
+It was only a couple of months ago I couldn't imagine ever hosting my own blogging software again. I'd been through Textpattern, Wordpress, Tumblr and Posterous: all the time looking for that perfect platform that would help me write more. But we all know that [doesn't really happen][voltar].
+
+[voltar]: http://maxvoltar.com/archive/i-want-to-write-more
+
+I had thought Marco Arment and Dan Benjamin geeking out about building a simple blogging system (on their Build & Analyze podcast) was a crazy paranoid waste of time. And yet I wasn't happy.
+
+The points they raised about owning their content and the fragility of "free" online services pricked my interest. This is my writing, I'd like (whatever is relevent) to survive in the coming years—I don't want to be [geocities-ed](http://geocities.yahoo.com/index.php).
+
+This was coupled with perculiar restrictions on Javascript (i.e. none) on the latest resting place of my blog on Posterous. And frankly the 'single page' theming systems of both Tumblr and Posterous leave a lot to be desired.
+
+I have a long standing (unrequited) love for Textpattern, but it creaks so badly these days and surprisingly for a solo author Wordpress feels like overkill - it really is becoming the mini-CMS it has always threatened to be.
+
+And after all: this is a blog. A place for writing. A place for reading. A place where I can tweak the design and typography to my heart's content.
+
+So the latest version of my blog indulges my anal-retentive designer side as well as my developer-y side. I've used a customised version of [toto][]: a simple ruby based flat file blog engine. The main customization was to include HAML support for the templating, plus I ripped out the styling to do my own thing...
+
+[toto]: http://cloudhead.io/toto
+
+The design is fully responsive (I've made my way through [Ethan Marcotte's masterpiece][bkaprt4]) and I've even embraced a fluid grid, which I have to be honest feels a bit strange. I've based the design around a customised version of Andy Clarke's [320 and up][]. I'm a great believer in designing for multiple screens at teh same time, particularly in a 'mostly' text situation such a blog.
+
+The font-size and line-height scale with the window width and the fluid grid to retain a sensible line length for comfortable reading.
+
+[bkaprt4]: http://www.abookapart.com/products/responsive-web-design
+[320 and up]: http://stuffandnonsense.co.uk/projects/320andup/
+
+I'm running on Heroku (it's Varnish cache should protect against any traffic surges) and I have my writing as flat markdown files. I simply use [IA Writer] to draft a new post, and `git push` to Heroku. Feels good.
+
+[IA Writer]: http://www.informationarchitects.jp/en/ia-writer-for-mac/
+
+It feels both DIY but also terribly elegant, minimal tools, no database setup and no overheads. I need access to a 'real computer' to add posts, but then I find I do most of my writing at a computer rather than a 'post PC' device.
+
+If you want to poke around in the source, it's on [github][]. No doubt further design enhancements and tweaks will continue, as will hopefully the writing.
+
+[github]: https://github.com/andycroll/andycroll
