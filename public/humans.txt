@@ -1,1 +1,19 @@
-Word
+/* TEAM */
+
+Your title: Andy Croll
+Site: andycroll@deepcalm.com
+Twitter: @andycroll
+Location: Singapore, Singapore
+
+/* THANKS */
+
+Name: Andy Clarke, @malarkey
+Name: Ethan Marcotte, @beep
+Name: Alexis Sellier, @cloudhead
+
+/* SITE */
+
+Last update: 2011/06/21
+Standards: HTML5, CSS3, Responsive Web Design
+Components: Modernizr, 320andup, html5boilerplate.com, respond.js, cloudhead.io/toto
+Software: Textmate
