@@ -384,20 +384,20 @@ small {
 
 a, a:visited {
   outline: none;
-  color: rgb(50,50,50);
+  color: rgb(80,50,50);
   text-decoration: none;
   border-bottom: 1px dotted rgb(80,80,80);
 }
 
 a:hover {
   outline: none;
-  color: rgb(20,20,20);
+  color: rgb(50,20,20);
   border-bottom: 1px solid rgba(80,80,80, 0.5);
 }
 
 a:active, a:focus {
   outline: none;
-  color: rgb(0,0,0);
+  color: rgb(20,0,0);
 }
 
 /* 5.FIGURES & IMAGES */
@@ -438,9 +438,10 @@ figcaption {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-  margin-bottom: 1.4em;
+  margin-bottom: 2em;
   width: 100%;
-  font-size: .875em; /* 14 / 16 = .875 */
+  font-size: .75em; /* 14 / 16 = .875 */
+  line-height: 1.5; /* 14 / 16 = .875 */
 }
 
 th {
@@ -448,7 +449,7 @@ th {
 }
 
 th, td, caption {
-  padding: .25em 10px .25em 5px;
+  padding: .25em 10px .25em 0;
 }
 
 tfoot {
@@ -474,6 +475,12 @@ header[role=banner] h1 {
 header[role=banner] h1 a {
   border-bottom: none;
 }
+header[role=banner] a,
+header[role=banner] a:link, header[role=banner] a:visited,
+header[role=banner] a:hover, header[role=banner] a:active, header[role=banner] a:focus {
+  color: rgb(0,0,0);
+}
+
 header[role=banner] h2 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 1.125em;
@@ -494,7 +501,7 @@ header[role=banner] h2 .amp {
 
 header[role=banner] #links {
   position: absolute;
-  top: 0.125em;
+  top: 0.175em;
   right: 0;
 }
 header[role=banner] #links a {
@@ -560,9 +567,6 @@ header[role=banner] #links .dribbble {
 /* 10.CONTENT */
 
 .single p:first-child {
-  font-size: 1.125em;
-  line-height: 1.33333em;
-  margin-bottom: 1.33333em;
   font-weight: 100;
   font-style: italic;
 }
@@ -570,29 +574,6 @@ header[role=banner] #links .dribbble {
 .more {
   margin-bottom: 1.5em;
 }
-
-/*.pullquote {
-  font-style: italic;
-  margin: 0.5em 1.25em 0.3em 0;
-  padding-top: 0.15em;
-  line-height: 1.2;
-  display: block;
-  float: left;
-  font-size: 1.6em;
-  width: 40%;
-  font-weight: 100;
-}
-.pullquote: before {
-  font-family: Monaco,Consolas,"Lucida Console",monospace;
-  content: "“";
-  font-size: 2em;
-  font-style: normal;
-  text-indent: -0.75em;
-  float: left;
-  opacity: 0.3;
-  line-height: 1.15;
-}
-*/
 
 /* 11.MAIN */
 
