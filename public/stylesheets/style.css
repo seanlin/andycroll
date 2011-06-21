@@ -738,3 +738,176 @@ margin-bottom: 1.5em;
 }
 
 /* 17.MODERNIZR */
+
+@media screen and only screen and (min-width: 480px) {
+
+  /* 1.ROOT */
+  /* 2.HEADINGS */
+  /* 3.TYPOGRAPHY */
+  /* 4.LINKS */
+  /* 5.FIGURES & IMAGES */
+  /* 6.TABLES */
+  /* 7.FORMS (See css/mylibs/forms.css) */
+  /* 8.BANNER */
+  /* 9.NAVIGATION */
+  /* 10.CONTENT */
+  /* 11.MAIN */
+  /* 12.COMPLIMENTARY */
+  /* 13.CONTENTINFO */
+  /* 14.GLOBAL OBJECTS */
+  /* 15.VENDOR-SPECIFIC */
+  /* 16.TEMPLATE SPECIFICS */
+  /* 17.MODERNIZR */
+
+}
+
+@media only screen and (min-width: 768px) {
+
+  /* 1.ROOT */
+
+  html {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  body {
+    width: 90%;
+  }
+
+  /* 2.HEADINGS */
+  /* 3.TYPOGRAPHY */
+  /* 4.LINKS */
+  /* 5.FIGURES & IMAGES */
+  /* 6.TABLES */
+  /* 7.FORMS (See css/mylibs/forms.css) */
+  /* 8.BANNER */
+
+  header[role=banner] {
+    width: 37.2867710514%;
+    float: right;
+  }
+
+  #promotion {
+    position: absolute;
+    top: 12em; right: 0;
+    display: block;
+    width: 37.2867710514%;
+  }
+
+  /* 9.NAVIGATION */
+  /* 10.CONTENT */
+  /* 11.MAIN */
+
+  section[role=main] {
+    width: 57.71322895%;
+    float: left;
+  }
+
+  /* 12.COMPLIMENTARY */
+  /* 13.CONTENTINFO */
+  /* 14.GLOBAL OBJECTS */
+  /* 15.VENDOR-SPECIFIC */
+  /* 16.TEMPLATE SPECIFICS */
+  /* 17.MODERNIZR */
+}
+@media only screen and (min-width: 992px) {
+
+  /* 1.ROOT */
+
+  html {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  body {
+    width: 85%
+  }
+
+  /* 2.HEADINGS */
+  /* 3.TYPOGRAPHY */
+  /* 4.LINKS */
+  /* 5.FIGURES & IMAGES */
+  /* 6.TABLES */
+  /* 7.FORMS (See css/mylibs/forms.css) */
+  /* 8.BANNER */
+  /* 9.NAVIGATION */
+  /* 10.CONTENT */
+  /* 11.MAIN */
+  /* 12.COMPLIMENTARY */
+  /* 13.CONTENTINFO */
+  /* 14.GLOBAL OBJECTS */
+  /* 15.VENDOR-SPECIFIC */
+  /* 16.TEMPLATE SPECIFICS */
+  /* 17.MODERNIZR */
+
+}
+
+@media only screen and (min-width: 1382px) {
+
+  /* 1.ROOT */
+
+  html {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  body {
+    width: 80%;
+    max-width: 1400px;
+  }
+
+  /* 2.HEADINGS */
+  /* 3.TYPOGRAPHY */
+  /* 4.LINKS */
+  /* 5.FIGURES & IMAGES */
+  /* 6.TABLES */
+  /* 7.FORMS (See css/mylibs/forms.css) */
+  /* 8.BANNER */
+  /* 9.NAVIGATION */
+  /* 10.CONTENT */
+  /* 11.MAIN */
+  /* 12.COMPLIMENTARY */
+  /* 13.CONTENTINFO */
+  /* 14.GLOBAL OBJECTS */
+  /* 15.VENDOR-SPECIFIC */
+  /* 16.TEMPLATE SPECIFICS */
+  /* 17.MODERNIZR */
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+
+  /* 1.ROOT */
+  /* 2.HEADINGS */
+  /* 3.TYPOGRAPHY */
+  /* 4.LINKS */
+  /* 5.FIGURES & IMAGES */
+  /* 6.TABLES */
+  /* 7.FORMS (See css/mylibs/forms.css) */
+  /* 8.BANNER */
+
+  header[role=banner] #links a { background-size: 35px 60px; }
+  header[role=banner] #links .twitter {
+    background-image: url(/images/style/twitter-banner@2x.png);
+  }
+  header[role=banner] #links .facebook {
+    background-image: url(/images/style/facebook-banner@2x.png);
+  }
+  header[role=banner] #links .github {
+    background-image: url(/images/style/github-banner@2x.png);
+  }
+  header[role=banner] #links .dribbble {
+    background-image: url(/images/style/dribbble-banner@2x.png);
+  }
+
+  /* 9.NAVIGATION */
+  /* 10.CONTENT */
+  /* 11.MAIN */
+  /* 12.COMPLIMENTARY */
+  /* 13.CONTENTINFO */
+  /* 14.GLOBAL OBJECTS */
+  /* 15.VENDOR-SPECIFIC */
+  /* 16.TEMPLATE SPECIFICS */
+  /* 17.MODERNIZR */
+
+}
