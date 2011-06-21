@@ -599,21 +599,15 @@ aside h1, .wf-active aside h1 {
   border-top: 0.15em solid #000;
   border-bottom: none;
   margin: 0;
-  padding: 0.45em 0 0.6em; /* 75 / 26 */
+  padding: 0.45em 0 0.6em;
 }
 aside p, .sidenote p {
   font-style: normal;
 }
 aside ul, aside ol, .sidenote ul, .sidenote ol {
-  margin-top: 1.3em;
-  line-height: 1.7;
-}
-aside ul li,aside ol li,.sidenote ul li,.sidenote ol li {
-/*  margin-bottom: 1.3em;*/
 }
 
 /* 13.CONTENTINFO */
-
 /* 14.GLOBAL OBJECTS */
 
 .clearfix {
@@ -660,15 +654,6 @@ background: rgb(23,119,175);
 color: rgb(250,250,250);
 text-shadow: none;
 }
-
-/* input[type=search] {
--webkit-appearance: none;
-}
-
-input[type="search"]: :-webkit-search-decoration,
-input[type="search"]: :-webkit-search-cancel-button {
-display: none;
-} */
 
 : :-webkit-input-placeholder {
 padding: 10px;
@@ -753,21 +738,3 @@ margin-bottom: 1.5em;
 }
 
 /* 17.MODERNIZR */
-
-/*
-Sources:
-http: //meyerweb.com/eric/tools/css/reset
-http: //people.opera.com/patrickl/experiments/keyboard/test
-http: //gist.github.com/413930
-http: //pathf.com/blogs/2008/05/formatting-quoted-code-in-blog-posts-css21-white-space-pre-wrap
-http: //sitepoint.com/blogs/2010/08/20/ie-remove-textarea-scrollbars
-http: //tjkdesign.com/ez-css/css/base.css
-http: //viget.com/inspire/styling-the-button-element-in-internet-explorer
-http: //code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing
-http: //html5doctor.com/html-5-reset-stylesheet/
-http: //praegnanz.de/weblog/htmlcssjs-kickstart/
-http: //camendesign.com/design/
-http: //yui.yahooapis.com/2.8.1/build/base/base.css
-http: //webaim.org/techniques/css/invisiblecontent/
-http: //drupal.org/node/897638
-*/
