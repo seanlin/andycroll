@@ -122,7 +122,7 @@ body {
 body,
 dt,blockquote,cite,
 .run-in,.pullquote,.drop-cap{
-  font-family: Georgia, serif;
+  font-family: "utopia-std-1", "utopia-std-2", Georgia, Times, "Times New Roman", serif;
 }
 
 h1 {
@@ -137,7 +137,7 @@ h1 {
 
 h2, h3, h4, h5, h6,
 .sidenote h1, aside h1 {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: "utopia-std-1", "utopia-std-2", Georgia, Times, "Times New Roman", serif;
   font-weight: normal;
   letter-spacing: 0;
 }
@@ -303,7 +303,7 @@ blockquote {
   margin-right: 5em;
 }
 blockquote: before {
-  font-family: Monaco,Consolas,"Lucida Console",monospace;
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
   content: "“";
   font-size: 2.1em;
   font-style: normal;
@@ -483,7 +483,7 @@ header[role=banner] h1 a {
 }
 
 header[role=banner] h2 {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: "utopia-std-1", "utopia-std-2", Georgia, Times, "Times New Roman", serif;
   font-size: 1.125em;
   line-height: 1.33333333;
   font-weight: normal;
