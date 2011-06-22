@@ -127,7 +127,7 @@ dt,blockquote,cite,
 
 h1 {
   font-family: "news-gothic-std-1", "news-gothic-std-2", "Helvetica Neue", Arial, sans-serif;
-  letter-spacing: -1px;
+  letter-spacing: -0.0625em;
   font-weight: bold;
 }
 
