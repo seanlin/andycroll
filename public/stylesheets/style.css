@@ -413,9 +413,9 @@ a:active, a:focus {
   color: rgb(20,0,0);
 }
 
-.hentry h1 a,
-.hentry h1 a:link, .hentry h1 a:visited,
-.hentry h1 a:hover, .hentry h1 a:active, h1 a:focus {
+h1 a,
+h1 a:link, h1 a:visited,
+h1 a:hover, h1 a:active, h1 a:focus {
   color: rgb(0,0,0);
   display: block;
 }
