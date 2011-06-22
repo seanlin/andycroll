@@ -218,7 +218,8 @@ a.superscript,a.subscript {
 
 /* 2.HEADINGS */
 
-h1 {
+h1,
+.hfeed h1 a {
   font-size: 1.5em;
   line-height: 1.5;
   margin: 0 0 1em;
@@ -226,16 +227,13 @@ h1 {
   border-bottom: 0.0416666667em solid #ccc;
   padding: 0.125em 0 1.125em;
   font-weight: bold;
+  text-shadow: 0 0.0833333333em 0.0833333333em rgb(255,255,255);
 }
 .hfeed h1 a {
   display: block;
-  font-size: 1.5em;
-  line-height: 1.5;
-  margin: 0 0 1em;
-  border-top: 0.125em solid #000;
-  border-bottom: 0.0416666667em solid #ccc;
-  padding: 0.125em 0 1.125em;
-  font-weight: bold;
+}
+.hfeed h1:hover a:hover, .hfeed h1:hover a:active, .hfeed h1:hover a:focus {
+  border-bottom-color: #aaa;
 }
 .hfeed h1 {
   font-size: 1em;
@@ -397,25 +395,40 @@ small {
 
 a, a:visited {
   outline: none;
-  color: rgb(80,50,50);
+  color: rgb(50,50,80);
   text-decoration: none;
-  border-bottom: 1px dotted rgb(80,80,80);
+  border-bottom: 1px dotted rgba(50,50,80,0.2);
+  -webkit-transition-property: border-bottom, color;
+     -moz-transition-property: border-bottom, color;
+       -o-transition-property: border-bottom, color;
+          transition-property: border-bottom, color;
+  -webkit-transition-duration: .5s;
+     -moz-transition-duration: .5s;
+       -o-transition-duration: .5s;
+          transition-duration: .5s;
+  -webkit-transition-timing-function: ease-in-out;
+     -moz-transition-timing-function: ease-in-out;
+       -o-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
 }
 
-a:hover {
+a:hover,
+a:active, a:focus,
+:hover > a:hover,
+:hover > a:active, :hover > a:focus {
   outline: none;
-  color: rgb(50,20,20);
-  border-bottom: 1px solid rgba(80,80,80, 0.5);
+  color: rgb(20,20,140);
+  border-bottom: 1px solid rgba(50,50,140, 0.9);
 }
-
-a:active, a:focus {
-  outline: none;
-  color: rgb(20,0,0);
+:hover > a {
+  color: rgb(20,20,100);
+  border-bottom: 1px solid rgba(50,50,140, 0.5);
 }
 
 h1 a,
 h1 a:link, h1 a:visited,
-h1 a:hover, h1 a:active, h1 a:focus {
+h1 a:hover, h1 a:active, h1 a:focus,
+h1:hover a:hover, h1:hover a:active, h1:hover a:focus {
   color: rgb(0,0,0);
   display: block;
 }
