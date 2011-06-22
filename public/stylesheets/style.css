@@ -227,6 +227,22 @@ h1 {
   padding: 0.125em 0 1.125em;
   font-weight: bold;
 }
+.hfeed h1 a {
+  display: block;
+  font-size: 1.5em;
+  line-height: 1.5;
+  margin: 0 0 1em;
+  border-top: 0.125em solid #000;
+  border-bottom: 0.0416666667em solid #ccc;
+  padding: 0.125em 0 1.125em;
+  font-weight: bold;
+}
+.hfeed h1 {
+  font-size: 1em;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
 
 h2 {
   font-family: "news-gothic-std-1", "news-gothic-std-2", "Helvetica Neue", "Arial", "Helvetica", sans-serif;
@@ -397,10 +413,11 @@ a:active, a:focus {
   color: rgb(20,0,0);
 }
 
-h1 a,
-h1 a:link, h1 a:visited,
-h1 a:hover, h1 a:active, h1 a:focus {
+.hentry h1 a,
+.hentry h1 a:link, .hentry h1 a:visited,
+.hentry h1 a:hover, .hentry h1 a:active, h1 a:focus {
   color: rgb(0,0,0);
+  display: block;
 }
 
 /* 5.FIGURES & IMAGES */
