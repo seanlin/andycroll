@@ -126,7 +126,7 @@ dt,blockquote,cite,
 }
 
 h1 {
-  font-family: "atrement-web-1", "atrement-web-2", "Helvetica Neue", Arial, sans-serif;
+  font-family: "news-gothic-std-1", "news-gothic-std-2", "Helvetica Neue", Arial, sans-serif;
   letter-spacing: -1px;
   font-weight: bold;
 }
@@ -229,10 +229,11 @@ h1 {
   border-top: 0.125em solid #000;
   border-bottom: 0.0416666667em solid #ccc;
   padding: 0.125em 0 1.125em;
+  font-weight: bold;
 }
 
 h2 {
-  font-family: "Helvetica Neue", "Arial", "Helvetica", sans-serif;
+  font-family: "news-gothic-std-1", "news-gothic-std-2", "Helvetica Neue", "Arial", "Helvetica", sans-serif;
   font-size: 1em;
   line-height: 1em;
   margin: 1.5em 0 0.5em 0;
