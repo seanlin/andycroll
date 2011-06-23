@@ -231,7 +231,7 @@ h1,
   border-bottom: 0.0416666667em solid #ccc;
   padding: 0.125em 0 1.125em;
   font-weight: bold;
-  text-shadow: 0 0.0833333333em 0.0833333333em rgb(255,255,255);
+  text-shadow: 0 0.0833333333em 0.0833333333em rgba(255,255,255,0.5);
 }
 .hfeed h1 a {
   display: block;
@@ -404,11 +404,11 @@ a, a:visited {
   outline: none;
   color: rgb(50,50,80);
   text-decoration: none;
-  border-bottom: 1px dotted rgba(50,50,80,0.2);
-  -webkit-transition-property: border-bottom, color;
-     -moz-transition-property: border-bottom, color;
-       -o-transition-property: border-bottom, color;
-          transition-property: border-bottom, color;
+  border-bottom: 0.0625em dotted rgba(50,50,80,0.2);
+  -webkit-transition-property: color;
+     -moz-transition-property: color;
+       -o-transition-property: color;
+          transition-property: color;
   -webkit-transition-duration: .5s;
      -moz-transition-duration: .5s;
        -o-transition-duration: .5s;
@@ -424,12 +424,11 @@ a:active, a:focus,
 :hover > a:hover,
 :hover > a:active, :hover > a:focus {
   outline: none;
-  color: rgb(20,20,140);
-  border-bottom: 1px solid rgba(50,50,140, 0.9);
+  border-bottom: 1px solid rgb(32, 66, 134);
 }
 :hover > a {
-  color: rgb(20,20,100);
-  border-bottom: 1px solid rgba(50,50,140, 0.5);
+  color: rgb(32, 66, 134);
+  border-bottom: 0;
 }
 
 h1 a,
@@ -512,7 +511,8 @@ header[role=banner] h1 {
   padding-bottom: 3.475em;
 }
 
-header[role=banner] h1 a {
+header[role=banner] h1 a,
+header[role=banner] h1 a:hover, header[role=banner] h1 a:focus, header[role=banner] h1 a:active {
   border-bottom: none;
 }
 
