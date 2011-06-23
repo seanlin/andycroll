@@ -42,6 +42,9 @@
 
   -# JavaScript at bottom except for Modernizr
   %script{ :src => "/javascripts/libs/modernizr-1.7.min.js" }
+  %script{ :src => "http://use.typekit.com/oea6hqe.js" }
+  %script
+    try{Typekit.load();}catch(e){}
 
 %body
   %header{ :role => "banner" }
@@ -85,9 +88,6 @@
   -#   window.jQuery || document.write("<script src='/javascripts/jquery-1.6.min.js'>\x3C/script>")
   %script{ :src => "/javascripts/plugins.js" }
   %script{ :src => "/javascripts/script.js" }
-  %script{ :src => "http://use.typekit.com/oea6hqe.js" }
-  %script
-    try{Typekit.load();}catch(e){}
   /[if (lt IE 9) & (!IEMobile)]
     %script{ :src => "/javascripts/libs/selectivizr-1.0.1.js" }
     %script{ :src => "/javascripts/libs/respond.min.js" }
