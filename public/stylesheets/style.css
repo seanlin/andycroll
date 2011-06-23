@@ -130,6 +130,10 @@ h1 {
   letter-spacing: -0.0625em;
   font-weight: bold;
 }
+.wf-loading h1 {
+  visibility: none;
+}
+
 
 h2, h3, h4, h5, h6,
 .sidenote h1, aside h1 {
@@ -242,6 +246,9 @@ h1,
   padding: 0;
 }
 
+.wf-loading h2 {
+  visibility: none;
+}
 h2 {
   font-family: "news-gothic-std-1", "news-gothic-std-2", "Helvetica Neue", "Arial", "Helvetica", sans-serif;
   font-size: 1em;
