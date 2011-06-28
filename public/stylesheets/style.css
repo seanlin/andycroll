@@ -619,6 +619,10 @@ header[role=banner] #links .dribbble {
   font-size: 0.875em;
   line-height: 1.7142857143;
 }
+.hentry .rdbWrapper {
+  position: absolute;
+  bottom: -0.65em; left: 0;
+}
 
 /* 12.COMPLIMENTARY */
 
@@ -825,6 +829,11 @@ margin-bottom: 1.5em;
 
   /* 9.NAVIGATION */
   /* 10.CONTENT */
+
+  .hentry .rdbWrapper {
+    bottom: -0.55em;
+  }
+
   /* 11.MAIN */
 
   section[role=main] {
@@ -861,6 +870,11 @@ margin-bottom: 1.5em;
   /* 8.BANNER */
   /* 9.NAVIGATION */
   /* 10.CONTENT */
+
+  .hentry .rdbWrapper {
+    bottom: -0.45em;
+  }
+
   /* 11.MAIN */
   /* 12.COMPLIMENTARY */
   /* 13.CONTENTINFO */
@@ -894,6 +908,11 @@ margin-bottom: 1.5em;
   /* 8.BANNER */
   /* 9.NAVIGATION */
   /* 10.CONTENT */
+
+  .hentry .rdbWrapper {
+    bottom: -0.35em;
+  }
+
   /* 11.MAIN */
   /* 12.COMPLIMENTARY */
   /* 13.CONTENTINFO */

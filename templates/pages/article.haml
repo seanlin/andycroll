@@ -6,6 +6,8 @@
     %time.published{ :datetime => Time.parse(date).iso8601, :pubdate => "pubdate" }
       %span.value-title{ :title => Time.parse(date).iso8601 }
       = date
+    <div class="rdbWrapper" data-show-read="1" data-show-send-to-kindle="0" data-show-print="0" data-show-email="0" data-orientation="0" data-version="1" data-bg-color="transparent" data-text-color="#080000"></div>
+    <script type="text/javascript">(function() {var s = document.getElementsByTagName("script")[0],rdb = document.createElement("script"); rdb.type = "text/javascript"; rdb.async = true; rdb.src = document.location.protocol + "//www.readability.com/embed.js"; s.parentNode.insertBefore(rdb, s); })();</script>
 
   %section.content.entry-content= body
 
